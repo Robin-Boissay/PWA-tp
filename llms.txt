@@ -1,0 +1,19 @@
+# VoxWave — Mémos Vocaux & Mini-Podcasts Publics
+> PWA d'enregistrement audio, d'écoute et de publication de mini-podcasts hors ligne.
+> Projet M2 Informatique · Università di Corsica · Octobre 2026.
+
+## Présentation
+VoxWave est une Progressive Web App installable, offline-first et universelle permettant d'enregistrer des mémos audio courts au microphone, d'y adjoindre des résumés et des transcriptions textuelles complètes, et de les diffuser sur le Web.
+
+## Contenu public
+- [Épisodes publics et transcriptions complètes](https://voxwave.pwa/episodes.md) : catalogue textuel complet des épisodes audio, prêt pour l'analyse et la synthèse.
+
+## Architecture technique
+- **Frontend** : HTML5 sémantique, CSS moderne (responsive dark theme), JavaScript ES6+ Vanilla.
+- **Stockage local** : IndexedDB via la bibliothèque `idb` (stores `episodes` et `outbox`).
+- **Hors ligne** : Service Worker (`sw.js`) versionné avec stratégies Stale-While-Revalidate, Cache First et Network First, page de secours `offline.html`.
+- **Synchronisation** : Outbox pattern avec Background Sync Chromium et repli sur l'événement `window.online`.
+- **Capacités matérielles** :
+  - Microphone via `MediaRecorder` & `getUserMedia` (permission demandée à l'action utilisateur).
+  - Media Session API (`navigator.mediaSession`) pour les commandes audio sur écran de verrouillage.
+  - Web Share API (`navigator.share`) pour le partage natif vers d'autres applications.

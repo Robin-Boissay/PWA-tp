@@ -1,0 +1,22 @@
+# Configuration de déploiement Netlify pour VoxWave (PWA statique)
+
+[build]
+  # Site statique pur : aucune étape de compilation requise
+  publish = "."
+
+# En-têtes HTTP de sécurité et de gestion du cache PWA
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/offline.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/*.md"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+    Content-Type = "text/markdown; charset=utf-8"

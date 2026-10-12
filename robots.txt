@@ -1,0 +1,16 @@
+# robots.txt — Directives d'exploration pour VoxWave
+User-agent: *
+Allow: /
+
+# Directives ciblées par agent d'IA
+User-agent: GPTBot
+Allow: /            # Les transcriptions audio gagnent à être citées et indexées
+
+User-agent: ClaudeBot
+Allow: /            # Lecture autorisée pour les résumés et réponses d'assistance
+
+User-agent: Google-Extended
+Disallow: /         # Pas d'entraînement massif sans citation ; recherche Google normale ouverte
+
+Sitemap: https://voxwave.pwa/sitemap.xml
+# llms.txt : https://voxwave.pwa/llms.txt
