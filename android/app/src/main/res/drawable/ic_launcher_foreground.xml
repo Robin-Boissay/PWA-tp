@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icône VoxWave : Microphone et ondes sonores dans la zone sûre (66 dp centrés sur 108) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Corps du microphone -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M54,32 C48.5,32 44,36.5 44,42 L44,56 C44,61.5 48.5,66 54,66 C59.5,66 64,61.5 64,56 L64,42 C64,36.5 59.5,32 54,32 Z" />
+    <!-- Berceau / Arc du micro -->
+    <path
+        android:strokeColor="#F8FAFC"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M38,50 C38,62 45,69 54,69 C63,69 70,62 70,50" />
+    <!-- Pied du micro -->
+    <path
+        android:strokeColor="#F8FAFC"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,69 L54,78 M42,78 L66,78" />
+    <!-- Ondes audio gauches et droites -->
+    <path
+        android:strokeColor="#A855F7"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M30,44 C28,48 28,54 30,58 M78,44 C80,48 80,54 78,58" />
+    <path
+        android:strokeColor="#6366F1"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M24,40 C21,46 21,56 24,62 M84,40 C87,46 87,56 84,62" />
+</vector>

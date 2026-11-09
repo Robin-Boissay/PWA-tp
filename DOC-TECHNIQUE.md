@@ -2,7 +2,7 @@
 
 **Auteur** : Robin  
 **Date** : 12 octobre 2026  
-**URL de production** : https://voxwave.pwa/  
+**URL de production** : https://mini-podcast.netlify.app/  
 **Dépôt** : https://github.com/robin/PWA-tp  
 **Statut** : Final  
 
@@ -131,9 +131,9 @@ VoxWave est une Progressive Web App permettant à chacun d'enregistrer, de réé
 ## 11. Mesures et vérifications
 
 Commandes validées avec succès sur la distribution :
-- `curl -s -A "GPTBot" https://voxwave.pwa/ | grep -c "<article[ >]"` → **3 épisodes détectés** dans le HTML statique.
-- `curl -sI https://voxwave.pwa/episodes.md | grep -i "content-type"` → `text/markdown`.
-- `curl -sI https://voxwave.pwa/robots.txt` → Réponse `200 OK`.
+- `curl -s -A "GPTBot" https://mini-podcast.netlify.app/ | grep -c "<article[ >]"` → **3 épisodes détectés** dans le HTML statique.
+- `curl -sI https://mini-podcast.netlify.app/episodes.md | grep -i "content-type"` → `text/markdown`.
+- `curl -sI https://mini-podcast.netlify.app/robots.txt` → Réponse `200 OK`.
 - Lighthouse PWA : **Installable, Service Worker actif, Manifest valide (100%)**.
 - Lighthouse SEO : **100%**.
 

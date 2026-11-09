@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palette sombre moderne VoxWave (indigo / violet / ardoise sombre) -->
+    <color name="voxwave_bg">#0B1120</color>
+    <color name="voxwave_card">#131C31</color>
+    <color name="voxwave_primary">#6366F1</color>
+    <color name="voxwave_primary_dark">#4F46E5</color>
+    <color name="voxwave_accent">#A855F7</color>
+    <color name="voxwave_text">#F8FAFC</color>
+    <color name="voxwave_text_muted">#94A3B8</color>
+    <color name="voxwave_success">#10B981</color>
+    <color name="voxwave_warning">#F59E0B</color>
+</resources>

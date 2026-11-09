@@ -12,5 +12,5 @@ Allow: /            # Lecture autorisée pour les résumés et réponses d'assis
 User-agent: Google-Extended
 Disallow: /         # Pas d'entraînement massif sans citation ; recherche Google normale ouverte
 
-Sitemap: https://voxwave.pwa/sitemap.xml
-# llms.txt : https://voxwave.pwa/llms.txt
+Sitemap: https://mini-podcast.netlify.app/sitemap.xml
+# llms.txt : https://mini-podcast.netlify.app/llms.txt

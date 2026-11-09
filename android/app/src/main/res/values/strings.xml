@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VoxWave</string>
+    <string name="tagline">Mémos Vocaux &amp; Mini-Podcasts</string>
+
+    <!-- Épisodes et Liste -->
+    <string name="episodes_title">📻 Épisodes &amp; Mémos</string>
+    <string name="draft_title_hint">Titre du mémo *</string>
+    <string name="draft_summary_hint">Résumé court *</string>
+    <string name="draft_transcript_hint">Transcription ou notes textuelles…</string>
+    <string name="publish">Publier le mémo</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete">Supprimer</string>
+    <plurals name="episodes_count">
+        <item quantity="one">%d épisode</item>
+        <item quantity="other">%d épisodes</item>
+    </plurals>
+
+    <!-- Statuts de synchronisation (Outbox) -->
+    <string name="synced">Synchronisé</string>
+    <string name="pending">En attente de sync</string>
+    <plurals name="pending_count">
+        <item quantity="one">%d en attente</item>
+        <item quantity="other">%d en attente</item>
+    </plurals>
+
+    <!-- Studio & Enregistrement -->
+    <string name="studio_title">🎙️ Studio Vocal</string>
+    <string name="record_start">Enregistrer</string>
+    <string name="record_stop">Arrêter</string>
+    <string name="recording_in_progress">Enregistrement en cours…</string>
+    <string name="recording_ready">Prêt à enregistrer</string>
+    <string name="recording_finished">Enregistrement terminé</string>
+
+    <!-- Audio Player -->
+    <string name="play">Écouter</string>
+    <string name="pause">Pause</string>
+    <string name="playback_in_progress">Lecture en cours…</string>
+
+    <!-- Partage & App Link -->
+    <string name="share">Partager</string>
+    <string name="share_via">Partager ce mémo via…</string>
+    <string name="open_pwa">Ouvrir la PWA web</string>
+    <string name="shared_audio_received">Fichier audio reçu !</string>
+
+    <!-- Permissions (PermissionFlow) -->
+    <string name="permission_mic_title">Accès au microphone requis</string>
+    <string name="permission_mic_rationale">VoxWave a besoin d\'accéder à votre microphone pour enregistrer vos mémos vocaux et micro-podcasts.</string>
+    <string name="permission_mic_denied_forever">L\'accès au microphone a été refusé de façon permanente. Veuillez l\'activer dans les paramètres de votre téléphone pour pouvoir enregistrer.</string>
+    <string name="permission_grant">Autoriser</string>
+    <string name="permission_open_settings">Ouvrir les paramètres</string>
+
+    <!-- Notifications & Service d'arrière-plan -->
+    <string name="channel_episodes_name">Épisodes &amp; Mémos Vocaux</string>
+    <string name="channel_episodes_desc">Alertes de nouveaux mémos enregistrés</string>
+    <string name="test_notif">Tester les notifications</string>
+    <string name="test_notif_sent">Notification envoyée !</string>
+    <string name="permission_notif_title">Autoriser les notifications</string>
+    <string name="permission_notif_rationale">VoxWave utilise les notifications pour vous prévenir de la fin des synchronisations et des nouveaux mémos enregistrés.</string>
+
+    <string name="channel_sync_name">Synchronisation VoxWave</string>
+    <string name="channel_sync_desc">Notifications de fin d\'envoi des mémos en attente</string>
+    <string name="sync_notif_title">VoxWave — Synchronisation terminée</string>
+    <string name="sync_notif_body">Tous vos mémos enregistrés hors-ligne ont été synchronisés !</string>
+
+    <string name="channel_service_name">Service Audio VoxWave</string>
+    <string name="channel_service_desc">Contrôles multimédias et enregistrement en arrière-plan</string>
+    <string name="service_recording_title">Enregistrement audio en arrière-plan</string>
+    <string name="service_playback_title">Lecture audio en arrière-plan</string>
+
+    <!-- Analytics & Consentement (Annexe 4) -->
+    <string name="analytics_consent_title">Mesure d\'audience</string>
+    <string name="analytics_consent_text">Aidez-nous à améliorer VoxWave en autorisant la mesure d\'audience anonyme (aucun enregistrement audio ni texte personnel n\'est collecté). Acceptez-vous la collecte ?</string>
+    <string name="analytics_accept">Accepter</string>
+    <string name="analytics_refuse">Refuser</string>
+</resources>

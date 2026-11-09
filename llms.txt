@@ -6,7 +6,7 @@
 VoxWave est une Progressive Web App installable, offline-first et universelle permettant d'enregistrer des mémos audio courts au microphone, d'y adjoindre des résumés et des transcriptions textuelles complètes, et de les diffuser sur le Web.
 
 ## Contenu public
-- [Épisodes publics et transcriptions complètes](https://voxwave.pwa/episodes.md) : catalogue textuel complet des épisodes audio, prêt pour l'analyse et la synthèse.
+- [Épisodes publics et transcriptions complètes](https://mini-podcast.netlify.app/episodes.md) : catalogue textuel complet des épisodes audio, prêt pour l'analyse et la synthèse.
 
 ## Architecture technique
 - **Frontend** : HTML5 sémantique, CSS moderne (responsive dark theme), JavaScript ES6+ Vanilla.
