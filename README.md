@@ -32,8 +32,9 @@ L'application native Android a été entièrement conçue et implémentée dans 
   - **Partage sortant** : Diffusion native des mémos (titre, résumé, lien) via l'Android Sharesheet.
 
 ### 🎥 Démonstration Vidéo
-> 📹 **Lien de la vidéo de démonstration** : [Ajouter ici le lien vers votre vidéo YouTube / Loom / Drive](https://)  
-*(Remplacer ce lien par l'URL de votre vidéo présentant le parcours utilisateur, l'enregistrement micro, le mode hors-ligne et la synchronisation).*
+> 📹 **Lien de la vidéo de démonstration** : https://photos.app.goo.gl/HKExL3uq5coskiVw8 
+Comme j'ai fait une application d'enregistrement vocal et que j'ai enregistrer la vidéo directement en capture vidéo sur mon téléphone, le micro était donc bloqué pour la capture de l'enregistrement
+et les enregistrement vocal sur l'app non pas fonctionné mais ils fonctionnent en temps normal vous pourrez les testers directement sur l'apk.
 
 ### 🚀 Lancement & Compilation du projet Android
 
